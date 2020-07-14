@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Flash Cars</h1>
+    <button class="start-button">Start Game</button>
+    <div class="score">
+    <aside class="score-right">Score Right: 0</aside>
+    <aside class="score-wrong">Score Wrong: 0</aside>
+    </div>
+    <section id="flashcard">
+        <article class="card">
+    <div class="question-container">
+    <div class="question"></div>
+    </div>
+    <div class="answer-container">
+        <div class="answer"></div>
+    </div>
+</article>
+    <div class="card-stack-1"></div>
+    <div class="card-stack-2"></div>
+    <div class="card-stack-3"></div>
+    </section>
+    <section id="controls">
+        <form>
+            Type your answer here<br>
+            <input type="text" class="input">
+            <br>
+            <input type="submit" value="submit">
+        </form>
+        <button class="next-card">Next Card</button>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
