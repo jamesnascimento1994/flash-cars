@@ -40,8 +40,7 @@ form.addEventListener('submit', function (e) {
 		nextCard.style.display = 'none';
 		resetButton.style.display = 'block';
 	} else if (wrongScore === currentWrongScore) {
-		document.querySelector('#flashcard').innerText =
-			'You get nothing! You lose!';
+        document.querySelector('#modal').style.display = 'block';
 		nextCard.style.display = 'none';
 		resetButton.style.display = 'block';
 	}
@@ -108,6 +107,21 @@ function resetGame(e) {
     flashcard.innerText = ' ';
     flashcard.style.background = 'white';
     resetButton.style.display = 'none';
+    document.querySelector('#modal').style.display = 'none';
     scoreRight.innerText = 0;
     scoreWrong.innerText = 0;
 }
+
+// const modal = document.getElementById('modal');
+// const close = document.getElementById('close');
+
+// //Functions
+
+// const closeModal = () => {
+// 	modal.style.display = 'none';
+// };
+
+// //Event Listeners
+// form.addEventListener('click', openModal);
+
+// close.addEventListener('click', closeModal);

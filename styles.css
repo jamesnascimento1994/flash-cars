@@ -68,3 +68,15 @@ form {
 .reset-game {
     display: none;
 }
+
+#modal {
+	background-color: rgba(0,0,0,0.4);
+    z-index: 1;
+    position: fixed;
+    top: 30%;
+    left: 30%;
+	/*This puts our modal in front of the body (which has a default z-index setting of `0`*/
+	overflow: auto;
+    /*If overflow is clipped, a scroll-bar should be added to see the rest of the content*/
+    display: none;
+}
