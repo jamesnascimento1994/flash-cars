@@ -101,5 +101,13 @@ function showQuestion() {
 }
 
 function resetGame(e) {
-	e.preventDefault();
+    e.preventDefault();
+    score.style.display = 'none';
+    startButton.style.display = 'block';
+    form.style.display = 'none';
+    flashcard.innerText = ' ';
+    flashcard.style.background = 'white';
+    resetButton.style.display = 'none';
+    scoreRight.innerText = 0;
+    scoreWrong.innerText = 0;
 }
