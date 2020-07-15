@@ -31,6 +31,10 @@ aside {
     background-color: white;
     margin: 60px auto 30px;
     position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 45px;
 }
 
 @media (max-width: 640px) {
@@ -106,6 +110,8 @@ aside {
         height: 460px;
     }
 }
+
+
 
 /* .question-container, .answer-container {
     height: 190px;
