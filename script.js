@@ -25,7 +25,8 @@ form.addEventListener('submit', function (e) {
 	currentAnswer = currentAnswer + 1;
 	// console.log(currentAnswer);
 	nextCard.style.display = 'flex';
-	form.style.display = 'none';
+    form.style.display = 'none';
+    document.querySelector('#modal').style.display = 'none';
 	if (answer.a === userInput.value) {
 		document.querySelector('#flashcard').innerText = 'Correct!';
 		scoreRight.innerText = ++currentRightScore;
@@ -111,17 +112,3 @@ function resetGame(e) {
     scoreRight.innerText = 0;
     scoreWrong.innerText = 0;
 }
-
-// const modal = document.getElementById('modal');
-// const close = document.getElementById('close');
-
-// //Functions
-
-// const closeModal = () => {
-// 	modal.style.display = 'none';
-// };
-
-// //Event Listeners
-// form.addEventListener('click', openModal);
-
-// close.addEventListener('click', closeModal);
