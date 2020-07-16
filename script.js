@@ -26,15 +26,14 @@ form.addEventListener('submit', function (e) {
 	// console.log(currentAnswer);
 	nextCard.style.display = 'flex';
     form.style.display = 'none';
-    document.querySelector('#modal').style.display = 'none';
 	if (answer.a === userInput.value) {
 		document.querySelector('#flashcard').innerText = 'Correct!';
 		scoreRight.innerText = ++currentRightScore;
-		flashcard.style.background = 'green';
+        flashcard.style.background = 'green';
 	} else {
 		document.querySelector('#flashcard').innerText = 'Incorrect! ' + answer.a;
 		scoreWrong.innerText = ++currentWrongScore;
-		flashcard.style.background = 'red';
+        flashcard.style.background = 'red';
 	}
 	if (rightScore === currentRightScore) {
 		document.querySelector('#flashcard').innerText = 'You have won the game!';
@@ -88,8 +87,9 @@ function startGame(e) {
 	e.preventDefault();
 	score.style.display = 'block';
 	startButton.style.display = 'none';
-	form.style.display = 'flex';
-	showQuestion();
+    form.style.display = 'flex';
+    userInput.value = null;
+    showQuestion();
 }
 
 function showQuestion() {
@@ -102,13 +102,5 @@ function showQuestion() {
 
 function resetGame(e) {
     e.preventDefault();
-    score.style.display = 'none';
-    startButton.style.display = 'block';
-    form.style.display = 'none';
-    flashcard.innerText = ' ';
-    flashcard.style.background = 'white';
-    resetButton.style.display = 'none';
-    document.querySelector('#modal').style.display = 'none';
-    scoreRight.innerText = 0;
-    scoreWrong.innerText = 0;
+    document.location.href = "";
 }
