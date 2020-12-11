@@ -56,7 +56,7 @@ How the reset button works
 
 ![Screen Shot 2020-12-11 at 12 15 02 PM](https://user-images.githubusercontent.com/62581000/101933695-8e21f000-3baa-11eb-8b22-191a749c7294.png)
 
-#### Technologies Used
+### Technologies Used
 
 HTML, CSS, and JavaScript
 
