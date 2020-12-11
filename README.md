@@ -62,4 +62,4 @@ HTML, CSS, and JavaScript
 
 Deployed with GitHub Pages
 
-Deployed App here: https://jamesnascimento1994.github.io/flash-cars/
+https://jamesnascimento1994.github.io/flash-cars/
