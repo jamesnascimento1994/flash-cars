@@ -5,7 +5,6 @@ A single player flash card game that quizzes you on your knowledge of car models
 ## Demo
 
 Short Demo video here: https://www.youtube.com/watch?v=FJ3OR_eyuNo&t=2s
-Deployed App here: https://jamesnascimento1994.github.io/flash-cars/
 
 ### Screenshots
 
@@ -62,3 +61,5 @@ How the reset button works
 HTML, CSS, and JavaScript
 
 Deployed with GitHub Pages
+
+Deployed App here: https://jamesnascimento1994.github.io/flash-cars/
