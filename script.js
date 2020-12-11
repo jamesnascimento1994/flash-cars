@@ -20,10 +20,7 @@ let wrongScore = 5;
 form.addEventListener('submit', function (e) {
 	e.preventDefault();
 	let answer = cards[currentAnswer];
-	// console.log(answer.a);
-	// console.log(userInput.value);
 	currentAnswer = currentAnswer + 1;
-	// console.log(currentAnswer);
 	nextCard.style.display = 'flex';
     form.style.display = 'none';
 	if (answer.a === userInput.value) {
