@@ -63,3 +63,5 @@ HTML, CSS, and JavaScript
 Deployed with GitHub Pages
 
 https://jamesnascimento1994.github.io/flash-cars/
+
+This app is being redone with react. Go to that repository here: https://github.com/jamesnascimento1994/flash-cars-updated-version
